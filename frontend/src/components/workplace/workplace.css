@@ -1,0 +1,35 @@
+@import url('../../root.css');
+
+.workplace {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.workplaceWrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+.workplaceLeft,
+.workplaceRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workplaceLeft span,
+.workplaceRight span {
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--secondary);
+    margin-bottom: 5px;
+}
+
+.workplaceLeft {
+    margin-right: 20px;
+}
+
+.workplaceRight {
+    margin-left: 20px;
+}

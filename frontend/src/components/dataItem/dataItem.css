@@ -1,0 +1,17 @@
+@import url('../../root.css');
+
+.item {
+}
+
+.item:hover {
+    background-color: var(--primary);
+}
+
+.itemInfo {
+    border: 1px solid #000;
+}
+
+.itemInfo:hover {
+    cursor: pointer;
+    background-color: var(--secondary);
+}
